@@ -14,5 +14,7 @@ LazyData: true
 ByteCompile: true
 RoxygenNote: 7.3.1
 Roxygen: list(markdown = TRUE)
+Imports:
+    compiler, utils
 Suggests:
     testthat, magrittr, zeallot, rlang, tibble, purrr
